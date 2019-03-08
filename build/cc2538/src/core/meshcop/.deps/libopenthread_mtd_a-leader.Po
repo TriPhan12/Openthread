@@ -1,0 +1,2 @@
+meshcop/libopenthread_mtd_a-leader.o: \
+ /home/tri/openthread/examples/../src/core/meshcop/leader.cpp

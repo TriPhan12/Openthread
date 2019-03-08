@@ -1,0 +1,106 @@
+libopenthread_cc2538_a-misc.o: \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/misc.c \
+ /home/tri/openthread/examples/../include/openthread/platform/misc.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /home/tri/openthread/examples/../include/openthread/instance.h \
+ /usr/arm-none-eabi/include/stdlib.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/machine/stdlib.h \
+ /home/tri/openthread/examples/../include/openthread/error.h \
+ /home/tri/openthread/examples/../include/openthread/platform/toolchain.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h \
+ /home/tri/openthread/examples/../include/openthread/platform/logging.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/platform-cc2538.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config.h \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../../include/openthread-config-generic.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-default-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config-check.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/cc2538-reg.h
+
+/home/tri/openthread/examples/../include/openthread/platform/misc.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
+
+/usr/arm-none-eabi/include/stdint.h:
+
+/usr/arm-none-eabi/include/machine/_default_types.h:
+
+/usr/arm-none-eabi/include/sys/features.h:
+
+/usr/arm-none-eabi/include/_newlib_version.h:
+
+/usr/arm-none-eabi/include/sys/_intsup.h:
+
+/usr/arm-none-eabi/include/sys/_stdint.h:
+
+/home/tri/openthread/examples/../include/openthread/instance.h:
+
+/usr/arm-none-eabi/include/stdlib.h:
+
+/usr/arm-none-eabi/include/machine/ieeefp.h:
+
+/usr/arm-none-eabi/include/_ansi.h:
+
+/usr/arm-none-eabi/include/newlib.h:
+
+/usr/arm-none-eabi/include/sys/config.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h:
+
+/usr/arm-none-eabi/include/sys/reent.h:
+
+/usr/arm-none-eabi/include/_ansi.h:
+
+/usr/arm-none-eabi/include/sys/_types.h:
+
+/usr/arm-none-eabi/include/machine/_types.h:
+
+/usr/arm-none-eabi/include/sys/lock.h:
+
+/usr/arm-none-eabi/include/sys/cdefs.h:
+
+/usr/arm-none-eabi/include/machine/stdlib.h:
+
+/home/tri/openthread/examples/../include/openthread/error.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/toolchain.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/logging.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/platform-cc2538.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config.h:
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../../include/openthread-config-generic.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-default-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config-check.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/cc2538-reg.h:

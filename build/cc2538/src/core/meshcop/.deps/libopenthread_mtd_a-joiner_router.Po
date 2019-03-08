@@ -1,0 +1,2 @@
+meshcop/libopenthread_mtd_a-joiner_router.o: \
+ /home/tri/openthread/examples/../src/core/meshcop/joiner_router.cpp

@@ -1,0 +1,20 @@
+api/libopenthread_ftd_a-border_router_api.o: \
+ /home/tri/openthread/examples/../src/core/api/border_router_api.cpp \
+ /home/tri/openthread/examples/../src/core/openthread-core-config.h \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-default-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config-check.h
+
+/home/tri/openthread/examples/../src/core/openthread-core-config.h:
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-default-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config-check.h:

@@ -1,0 +1,2 @@
+thread/libopenthread_mtd_a-mle_router.o: \
+ /home/tri/openthread/examples/../src/core/thread/mle_router.cpp

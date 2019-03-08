@@ -1,0 +1,23 @@
+libopenthread_cli_ftd_a-cli_coap.o: \
+ /home/tri/openthread/examples/../src/cli/cli_coap.cpp \
+ /home/tri/openthread/examples/../src/cli/cli_coap.hpp \
+ /home/tri/openthread/examples/../src/core/openthread-core-config.h \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-default-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config-check.h
+
+/home/tri/openthread/examples/../src/cli/cli_coap.hpp:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config.h:
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-default-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config-check.h:

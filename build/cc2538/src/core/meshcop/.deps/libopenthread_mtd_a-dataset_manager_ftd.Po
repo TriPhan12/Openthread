@@ -1,0 +1,2 @@
+meshcop/libopenthread_mtd_a-dataset_manager_ftd.o: \
+ /home/tri/openthread/examples/../src/core/meshcop/dataset_manager_ftd.cpp

@@ -1,0 +1,288 @@
+net/libopenthread_ftd_a-ip6_headers.o: \
+ /home/tri/openthread/examples/../src/core/net/ip6_headers.cpp \
+ /home/tri/openthread/examples/../src/core/net/ip6_headers.hpp \
+ /home/tri/openthread/examples/../src/core/openthread-core-config.h \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-default-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config-check.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
+ /home/tri/openthread/examples/../src/core/common/encoding.hpp \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/limits.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/syslimits.h \
+ /usr/arm-none-eabi/include/limits.h /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /home/tri/openthread/examples/../src/core/utils/wrap_stdint.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /home/tri/openthread/examples/../src/core/common/message.hpp \
+ /home/tri/openthread/examples/../src/core/utils/wrap_string.h \
+ /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/xlocale.h \
+ /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /home/tri/openthread/examples/../include/openthread/message.h \
+ /home/tri/openthread/examples/../include/openthread/instance.h \
+ /usr/arm-none-eabi/include/c++/7.3.1/stdlib.h \
+ /usr/arm-none-eabi/include/c++/7.3.1/cstdlib \
+ /usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/c++config.h \
+ /usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/os_defines.h \
+ /usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/cpu_defines.h \
+ /usr/arm-none-eabi/include/stdlib.h \
+ /usr/arm-none-eabi/include/machine/stdlib.h \
+ /usr/arm-none-eabi/include/alloca.h \
+ /usr/arm-none-eabi/include/c++/7.3.1/bits/std_abs.h \
+ /home/tri/openthread/examples/../include/openthread/error.h \
+ /home/tri/openthread/examples/../include/openthread/platform/toolchain.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h \
+ /home/tri/openthread/examples/../include/openthread/platform/logging.h \
+ /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
+ /home/tri/openthread/examples/../include/openthread/platform/messagepool.h \
+ /home/tri/openthread/examples/../src/core/common/code_utils.hpp \
+ /home/tri/openthread/examples/../src/core/utils/static_assert.hpp \
+ /home/tri/openthread/examples/../src/core/utils/wrap_stdbool.h \
+ /home/tri/openthread/examples/../src/core/common/locator.hpp \
+ /home/tri/openthread/examples/../src/core/mac/mac_frame.hpp \
+ /home/tri/openthread/examples/../include/openthread/link.h \
+ /home/tri/openthread/examples/../include/openthread/commissioner.h \
+ /home/tri/openthread/examples/../include/openthread/dataset.h \
+ /home/tri/openthread/examples/../include/openthread/ip6.h \
+ /home/tri/openthread/examples/../include/openthread/platform/radio.h \
+ /home/tri/openthread/examples/../src/core/common/string.hpp \
+ /usr/arm-none-eabi/include/stdio.h \
+ /usr/arm-none-eabi/include/sys/types.h \
+ /usr/arm-none-eabi/include/machine/endian.h \
+ /usr/arm-none-eabi/include/machine/_endian.h \
+ /usr/arm-none-eabi/include/sys/select.h \
+ /usr/arm-none-eabi/include/sys/_sigset.h \
+ /usr/arm-none-eabi/include/sys/_timeval.h \
+ /usr/arm-none-eabi/include/sys/timespec.h \
+ /usr/arm-none-eabi/include/sys/_timespec.h \
+ /usr/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /usr/arm-none-eabi/include/sys/sched.h \
+ /usr/arm-none-eabi/include/machine/types.h \
+ /usr/arm-none-eabi/include/sys/stdio.h \
+ /home/tri/openthread/examples/../src/core/thread/link_quality.hpp \
+ /home/tri/openthread/examples/../src/core/net/ip6_address.hpp \
+ /home/tri/openthread/examples/../src/core/net/netif.hpp \
+ /home/tri/openthread/examples/../src/core/common/tasklet.hpp \
+ /home/tri/openthread/examples/../include/openthread/tasklet.h \
+ /home/tri/openthread/examples/../src/core/net/socket.hpp \
+ /home/tri/openthread/examples/../src/core/net/ip6.hpp \
+ /home/tri/openthread/examples/../include/openthread/udp.h \
+ /home/tri/openthread/examples/../src/core/net/icmp6.hpp \
+ /home/tri/openthread/examples/../include/openthread/icmp6.h \
+ /home/tri/openthread/examples/../src/core/net/ip6_headers.hpp \
+ /home/tri/openthread/examples/../src/core/net/ip6_mpl.hpp \
+ /home/tri/openthread/examples/../src/core/common/timer.hpp \
+ /home/tri/openthread/examples/../include/openthread/platform/alarm-micro.h \
+ /home/tri/openthread/examples/../include/openthread/platform/alarm-milli.h \
+ /home/tri/openthread/examples/../src/core/common/debug.hpp \
+ /usr/arm-none-eabi/include/ctype.h \
+ /home/tri/openthread/examples/../src/core/net/ip6_routes.hpp \
+ /home/tri/openthread/examples/../src/core/net/udp6.hpp
+
+/home/tri/openthread/examples/../src/core/net/ip6_headers.hpp:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config.h:
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-default-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config-check.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h:
+
+/home/tri/openthread/examples/../src/core/common/encoding.hpp:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/limits.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/syslimits.h:
+
+/usr/arm-none-eabi/include/limits.h:
+
+/usr/arm-none-eabi/include/newlib.h:
+
+/usr/arm-none-eabi/include/_newlib_version.h:
+
+/usr/arm-none-eabi/include/sys/cdefs.h:
+
+/usr/arm-none-eabi/include/machine/_default_types.h:
+
+/usr/arm-none-eabi/include/sys/features.h:
+
+/home/tri/openthread/examples/../src/core/utils/wrap_stdint.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
+
+/usr/arm-none-eabi/include/stdint.h:
+
+/usr/arm-none-eabi/include/sys/_intsup.h:
+
+/usr/arm-none-eabi/include/sys/_stdint.h:
+
+/home/tri/openthread/examples/../src/core/common/message.hpp:
+
+/home/tri/openthread/examples/../src/core/utils/wrap_string.h:
+
+/usr/arm-none-eabi/include/string.h:
+
+/usr/arm-none-eabi/include/_ansi.h:
+
+/usr/arm-none-eabi/include/sys/config.h:
+
+/usr/arm-none-eabi/include/machine/ieeefp.h:
+
+/usr/arm-none-eabi/include/sys/reent.h:
+
+/usr/arm-none-eabi/include/_ansi.h:
+
+/usr/arm-none-eabi/include/sys/_types.h:
+
+/usr/arm-none-eabi/include/machine/_types.h:
+
+/usr/arm-none-eabi/include/sys/lock.h:
+
+/usr/arm-none-eabi/include/xlocale.h:
+
+/usr/arm-none-eabi/include/strings.h:
+
+/usr/arm-none-eabi/include/sys/string.h:
+
+/home/tri/openthread/examples/../include/openthread/message.h:
+
+/home/tri/openthread/examples/../include/openthread/instance.h:
+
+/usr/arm-none-eabi/include/c++/7.3.1/stdlib.h:
+
+/usr/arm-none-eabi/include/c++/7.3.1/cstdlib:
+
+/usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/c++config.h:
+
+/usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/os_defines.h:
+
+/usr/arm-none-eabi/include/c++/7.3.1/arm-none-eabi/thumb/v7-m/bits/cpu_defines.h:
+
+/usr/arm-none-eabi/include/stdlib.h:
+
+/usr/arm-none-eabi/include/machine/stdlib.h:
+
+/usr/arm-none-eabi/include/alloca.h:
+
+/usr/arm-none-eabi/include/c++/7.3.1/bits/std_abs.h:
+
+/home/tri/openthread/examples/../include/openthread/error.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/toolchain.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/logging.h:
+
+/usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/messagepool.h:
+
+/home/tri/openthread/examples/../src/core/common/code_utils.hpp:
+
+/home/tri/openthread/examples/../src/core/utils/static_assert.hpp:
+
+/home/tri/openthread/examples/../src/core/utils/wrap_stdbool.h:
+
+/home/tri/openthread/examples/../src/core/common/locator.hpp:
+
+/home/tri/openthread/examples/../src/core/mac/mac_frame.hpp:
+
+/home/tri/openthread/examples/../include/openthread/link.h:
+
+/home/tri/openthread/examples/../include/openthread/commissioner.h:
+
+/home/tri/openthread/examples/../include/openthread/dataset.h:
+
+/home/tri/openthread/examples/../include/openthread/ip6.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/radio.h:
+
+/home/tri/openthread/examples/../src/core/common/string.hpp:
+
+/usr/arm-none-eabi/include/stdio.h:
+
+/usr/arm-none-eabi/include/sys/types.h:
+
+/usr/arm-none-eabi/include/machine/endian.h:
+
+/usr/arm-none-eabi/include/machine/_endian.h:
+
+/usr/arm-none-eabi/include/sys/select.h:
+
+/usr/arm-none-eabi/include/sys/_sigset.h:
+
+/usr/arm-none-eabi/include/sys/_timeval.h:
+
+/usr/arm-none-eabi/include/sys/timespec.h:
+
+/usr/arm-none-eabi/include/sys/_timespec.h:
+
+/usr/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+/usr/arm-none-eabi/include/sys/sched.h:
+
+/usr/arm-none-eabi/include/machine/types.h:
+
+/usr/arm-none-eabi/include/sys/stdio.h:
+
+/home/tri/openthread/examples/../src/core/thread/link_quality.hpp:
+
+/home/tri/openthread/examples/../src/core/net/ip6_address.hpp:
+
+/home/tri/openthread/examples/../src/core/net/netif.hpp:
+
+/home/tri/openthread/examples/../src/core/common/tasklet.hpp:
+
+/home/tri/openthread/examples/../include/openthread/tasklet.h:
+
+/home/tri/openthread/examples/../src/core/net/socket.hpp:
+
+/home/tri/openthread/examples/../src/core/net/ip6.hpp:
+
+/home/tri/openthread/examples/../include/openthread/udp.h:
+
+/home/tri/openthread/examples/../src/core/net/icmp6.hpp:
+
+/home/tri/openthread/examples/../include/openthread/icmp6.h:
+
+/home/tri/openthread/examples/../src/core/net/ip6_headers.hpp:
+
+/home/tri/openthread/examples/../src/core/net/ip6_mpl.hpp:
+
+/home/tri/openthread/examples/../src/core/common/timer.hpp:
+
+/home/tri/openthread/examples/../include/openthread/platform/alarm-micro.h:
+
+/home/tri/openthread/examples/../include/openthread/platform/alarm-milli.h:
+
+/home/tri/openthread/examples/../src/core/common/debug.hpp:
+
+/usr/arm-none-eabi/include/ctype.h:
+
+/home/tri/openthread/examples/../src/core/net/ip6_routes.hpp:
+
+/home/tri/openthread/examples/../src/core/net/udp6.hpp:

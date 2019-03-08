@@ -1,0 +1,8 @@
+api/libopenthread_mtd_a-server_api.o: \
+ /home/tri/openthread/examples/../src/core/api/server_api.cpp \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../include/openthread-config-generic.h
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:

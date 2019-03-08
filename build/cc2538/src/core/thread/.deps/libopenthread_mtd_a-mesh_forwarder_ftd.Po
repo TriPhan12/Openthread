@@ -1,0 +1,2 @@
+thread/libopenthread_mtd_a-mesh_forwarder_ftd.o: \
+ /home/tri/openthread/examples/../src/core/thread/mesh_forwarder_ftd.cpp

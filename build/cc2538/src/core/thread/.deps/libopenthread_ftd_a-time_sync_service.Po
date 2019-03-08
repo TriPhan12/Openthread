@@ -1,0 +1,20 @@
+thread/libopenthread_ftd_a-time_sync_service.o: \
+ /home/tri/openthread/examples/../src/core/thread/time_sync_service.cpp \
+ /home/tri/openthread/examples/../src/core/openthread-core-config.h \
+ /home/tri/openthread/examples/../include/openthread/config.h \
+ ../../include/openthread-config-generic.h \
+ /home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-default-config.h \
+ /home/tri/openthread/examples/../src/core/openthread-core-config-check.h
+
+/home/tri/openthread/examples/../src/core/openthread-core-config.h:
+
+/home/tri/openthread/examples/../include/openthread/config.h:
+
+../../include/openthread-config-generic.h:
+
+/home/tri/openthread/examples/../examples/platforms/cc2538/openthread-core-cc2538-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-default-config.h:
+
+/home/tri/openthread/examples/../src/core/openthread-core-config-check.h:
