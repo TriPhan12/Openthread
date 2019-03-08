@@ -91,6 +91,7 @@ ot_cli_ftd_LIBTOOLFLAGS                                                = \
 
 ot_cli_ftd_SOURCES                                                     = \
     $(SOURCES_COMMON)                                                    \
+    -DOPENTHREAD_FTD=1                                                   \
     $(NULL)
 
 if OPENTHREAD_ENABLE_MTD

@@ -28,14 +28,22 @@
 
 #include <assert.h>
 #include <openthread-core-config.h>
+#include <string.h>
 #include <openthread/config.h>
+#include <openthread/instance.h>
+#include <openthread/thread.h>
+#include <openthread/thread_ftd.h>
+#include <openthread/dataset_ftd.h>
 
 #include <openthread/cli.h>
 #include <openthread/diag.h>
 #include <openthread/tasklet.h>
 #include <openthread/platform/logging.h>
+#include <openthread/platform/uart.h>
 
 #include "openthread-system.h"
+
+static void setNetworkConfiguration(otInstance *aInstance);
 
 #if OPENTHREAD_EXAMPLES_POSIX
 #include <setjmp.h>
@@ -65,6 +73,11 @@ void otTaskletsSignalPending(otInstance *aInstance)
 
 int main(int argc, char *argv[])
 {
+
+    uint8_t chuoidulieu[12] = "Hello,Wolrd!";
+    uint16_t dodai=12;
+    //uint32_t l;
+
     otInstance *instance;
 
 #if OPENTHREAD_EXAMPLES_POSIX
@@ -104,6 +117,17 @@ pseudo_reset:
 
     otCliUartInit(instance);
 
+    setNetworkConfiguration (instance);
+    otIp6SetEnabled (instance, true);
+    otThreadSetEnabled (instance, true);
+
+    otPlatUartEnable();
+    otPlatUartReceived(chuoidulieu, dodai);
+
+
+   
+    otPlatUartSend(chuoidulieu, dodai);
+
 #if OPENTHREAD_ENABLE_DIAG
     otDiagInit(instance);
 #endif
@@ -122,6 +146,61 @@ pseudo_reset:
     goto pseudo_reset;
 
     return 0;
+}
+
+/**
+ * Override default network settings, such as panid, so the devices can join a network
+ */
+void setNetworkConfiguration(otInstance *aInstance)
+{
+    static char          aNetworkName[] = "OTCodelab";
+    otOperationalDataset aDataset;
+
+    memset(&aDataset, 0, sizeof(otOperationalDataset));
+   
+    /*
+     * Fields that can be configured in otOperationDataset to override defaults:
+     *     Network Name, Mesh Local Prefix, Extended PAN ID, PAN ID, Delay Timer,
+     *     Channel, Channel Mask Page 0, Network Master Key, PSKc, Security Policy
+     */
+    aDataset.mActiveTimestamp                      = 1;
+    aDataset.mComponents.mIsActiveTimestampPresent = true;
+     
+    /* Set Channel to 15 */
+    aDataset.mChannel                      = 15;
+    aDataset.mComponents.mIsChannelPresent = true;
+    
+    /* Set Pan ID to 2222 */
+    aDataset.mPanId                      = (otPanId)0x2222;
+    aDataset.mComponents.mIsPanIdPresent = true;
+
+    /* Set Extended Pan ID to C0DE1AB5C0DE1AB5 */
+    uint8_t extPanId[OT_EXT_PAN_ID_SIZE] = {0xC0, 0xDE, 0x1A, 0xB5, 0xC0, 0xDE, 0x1A, 0xB5};
+    memcpy(aDataset.mExtendedPanId.m8, extPanId, sizeof(aDataset.mExtendedPanId));
+    aDataset.mComponents.mIsExtendedPanIdPresent = true;
+    
+    /* Set master key to 1234C0DE1AB51234C0DE1AB51234C0DE */
+    uint8_t key[OT_MASTER_KEY_SIZE] = {0x12, 0x34, 0xC0, 0xDE, 0x1A, 0xB5, 0x12, 0x34, 0xC0, 0xDE, 0x1A, 0xB5};
+    memcpy(aDataset.mMasterKey.m8, key, sizeof(aDataset.mMasterKey));
+    aDataset.mComponents.mIsMasterKeyPresent = true;
+
+    /* Set Network Name to OTCodelab */
+    size_t length = strlen(aNetworkName);
+    assert(length <= OT_NETWORK_NAME_MAX_SIZE);
+    memcpy(aDataset.mNetworkName.m8, aNetworkName, length);
+    aDataset.mComponents.mIsNetworkNamePresent = true;
+
+#if OPENTHREAD_FTD
+    otDatasetSetActive(aInstance, &aDataset);
+    
+    /* Set the router selection jitter to override the 2 minute default.
+       CLI cmd > routerselectionjitter 20
+       Warning: For demo purposes only - not to be used in a real product */
+    uint8_t jitterValue = 20;
+    otThreadSetRouterSelectionJitter(aInstance, jitterValue);
+#else
+    OT_UNUSED_VARIABLE(aInstance);
+#endif
 }
 
 /*
